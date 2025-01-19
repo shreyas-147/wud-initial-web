@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-card">
         <img
-          src="/iMockup.png" // Replace with the actual image path
+          src="/iMockup.png" 
           alt="WUDI App"
           className="hero-image"
         />

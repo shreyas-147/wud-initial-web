@@ -1,0 +1,78 @@
+.footer {
+    background-color: #D2A9FF;
+    padding: 60px 20px 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    border-top: 3px solid #000; 
+    min-height: 200px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wud-button-container {
+    position: absolute;
+    top: -1px; /* Ensures it overlaps with the footer's top border */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .wud-button {
+    background-color:#D2A9FF ;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    top: -20px;
+  }
+  
+  .wud-button:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #6a0dad;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+   
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .footer-content {
+    gap: 50px;
+  }
+  
