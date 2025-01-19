@@ -1,6 +1,6 @@
-import "./styles.css";
+import "./Home.css";
 
-function Hero() {
+function Home() {
   return (
     <section className="hero">
       <div className="hero-card">
@@ -27,4 +27,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Home;
