@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -6,7 +7,6 @@ const Header = () => {
 
   const handleNavClick = (link) => {
     setActiveLink(link);
-    // Add navigation logic here
   };
 
   return (
@@ -15,25 +15,28 @@ const Header = () => {
         <button className="logo-button">WUD!</button>
       </div>
       <div className="nav-container">
-        <button
+        <Link
+          to="/"
           className={`nav-link ${activeLink === "home" ? "active" : ""}`}
           onClick={() => handleNavClick("home")}
         >
           Home
-        </button>
-        <button
+        </Link>
+        <Link
+          to="/wudapp"
           className={`nav-link ${activeLink === "wudapp" ? "active" : ""}`}
           onClick={() => handleNavClick("wudapp")}
         >
           WUD! App
-        </button>
-        <button
+        </Link>
+        <Link
+          to="/support"
           className={`nav-link ${activeLink === "support" ? "active" : ""}`}
           onClick={() => handleNavClick("support")}
         >
           Support
-        </button>
-        </div>
+        </Link>
+      </div>
     </header>
   );
 };
